@@ -1,23 +1,18 @@
-import React, { Component } from 'react'
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header'
-import { render } from '@testing-library/react';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 
+function App() {
+  return (
+    <div className="App">
+      <header>
+        <img src={logo} className="App-logo" alt="logo" />
+        <h1>We now have Auth!</h1>
+      </header>
+      <AmplifySignOut />
+    </div>
+  );
+}
 
-class App extends Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      foo: 'bar',
-    };
-  }
-  render() {
-      return (
-        <div className="App">
-          <Header/>
-        </div>
-      );
-    }
-  }
-export default App;
+export default withAuthenticator(App);
