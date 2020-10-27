@@ -8,12 +8,12 @@
       "DeploymentBucketName": "amplify-itemlogapp-dev-192612-deployment",
       "UnauthRoleName": "amplify-itemlogapp-dev-192612-unauthRole",
       "StackName": "amplify-itemlogapp-dev-192612",
-      "StackId": "arn:aws:cloudformation:us-east-1:172861630355:stack/amplify-itemlogapp-dev-192612/b0379d60-1658-11eb-af2e-0e22fadd816f",
-      "AmplifyAppId": "dedbs1hu2qtgo"
+      "StackId": "arn:aws:cloudformation:us-east-1:172861630355:stack/amplify-itemlogapp-dev-192612/d07f6200-17e9-11eb-a0f5-12605691f9eb",
+      "AmplifyAppId": "d3fqt8mkr80jbp"
     },
     "categories": {
       "auth": {
-        "itemlogapp68181672": {}
+        "itemlogappa0aa648f": {}
       }
     }
   }

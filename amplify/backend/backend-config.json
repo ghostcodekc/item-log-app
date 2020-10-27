@@ -1,6 +1,6 @@
 {
   "auth": {
-    "itemlogapp68181672": {
+    "itemlogappa0aa648f": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -8,7 +8,7 @@
     }
   },
   "api": {
-    "notesapp": {
+    "itemlogapp": {
       "service": "AppSync",
       "providerPlugin": "awscloudformation",
       "output": {
@@ -23,12 +23,6 @@
           "additionalAuthenticationProviders": []
         }
       }
-    }
-  },
-  "storage": {
-    "itemlog": {
-      "service": "S3",
-      "providerPlugin": "awscloudformation"
     }
   }
 }
